@@ -1,0 +1,22 @@
+/*
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+*/
+.square-container {
+  display: grid;
+  grid-template-columns: repeat(3, 30vw);
+  grid-template-rows: 30vw;
+  grid-gap: 1.5vw;
+  padding: 1.5vw;
+  background-color: gray;
+}
+
+.square {
+  background-color: lightgreen;
+}
+
+body {
+  margin: 0; /* remove default margins */
+}
+
+
