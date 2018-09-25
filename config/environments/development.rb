@@ -38,6 +38,13 @@ Rails.application.configure do
   config.active_record.migration_error = :page_load
 
 
+
+  # Enable the asset pipeline
+  config.assets.enabled = true
+
+  # Change the path that assets are served from
+  config.assets.prefix = "/assets"
+  
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
 
