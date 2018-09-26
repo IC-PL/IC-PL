@@ -2,30 +2,95 @@
   Place all the styles related to the matching controller here.
   They will automatically be included in application.css.
 */
-.square-container {
-  display: grid;
-  grid-template-columns: repeat(3, 30vw);
-  grid-template-rows: 30vw;
-  grid-gap: 1.5vw;
-  padding: 1.5vw;
-  background-color: gray;
+
+.html {
+  background-color: lightgray;
+}
+.container {
+  
+  display: inline-flex ;
+  flex-flow: row wrap;
+  
+  padding: 2vw;
+  font-size: 2vw;
+  height: 25vw;
+  width: 15vw;
+  background-color: whitesmoke;
+  color: black;
+  border: solid .1vw;
+  border-color: gray;
+  border-radius: .45vw;
 }
 
-.square {
-  background-color: lightgreen;
+.image {
+  display: flex;
+  padding-bottom: 2vw;
+  height: 15vw;
+  width: 15vw;
+  margin: 2px;
 }
 
-body {
-  margin: 0; /* remove default margins */
+.item {
+  margin: 5px;
+  height: 3vw;
+  font-weight: bold;
 }
 
+.price {
+  margin: 5px;
+  height: 3vw;
+}
+
+.buybutton {
+  height: 2vw;
+  background-color: #4CAF50;
+  color: white;
+  padding: 1vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5vw;
+  cursor: pointer;
+}
+.buybutton:hover {
+  height: 2vw;
+  background-color: blue;
+  color: white;
+  padding: 1vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5vw;
+  cursor: pointer;
+}
+
+/* .bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
 
 
-<style>
-body {
+
+
+
+
+/* body {
   margin: 5vw;
   padding: 5vw;
 }
+img {
+   height: 25vw;
+   width: 25vw;
+}
+
 div {
   height: 25vw;
   width: 25vw;
@@ -53,25 +118,9 @@ div:before {
 }
 div:hover:before {
   background: rgba(200, 200, 200, 0);
-}
+} 
 
 h2 {
   color: black;
   border-style: solid;
-}
-</style>
-
-
-
-<h1>Welcome#index </h1>
-<h2>hello world</h2>
-<div>1</div>
-<div>2</div>
-<div>3</div>
-<div>4</div>
-<div>5</div>
-<div>6</div>
-<div>7</div>
-<div>8</div>
-<div>9</div>
-
+} */

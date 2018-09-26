@@ -14,40 +14,4 @@
  *= require_self
  */
 
- body {
-    margin: 5vw;
-    padding: 5vw;
-  }
-  div {
-    height: 25vw;
-    width: 25vw;
-    border-style: solid;
-    background: tomato;
-    display: inline-block;
-    text-align: center;
-    line-height: 25vw;
-    font-size: 20vw;
-    margin-right: -4px;
-    position: relative;
-    border-color: white;
-  }
-  
-  
-  div:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: inherit;
-    width: inherit;
-    background: rgba(200, 200, 200, 0.6);
-    transition: all 0.4s;
-  }
-  div:hover:before {
-    background: rgba(200, 200, 200, 0);
-  }
-  
-  h2 {
-    color: black;
-    border-style: solid;
-  }
+ 
