@@ -1,0 +1,13 @@
+<%= form_for @post do |f| %>
+    <%= f.label :item %> <br>
+    <%= f.text_field :item %>
+    <br>
+    <%= f.label :price %> <br>
+    <%= f.text_field :price %>
+    <br>
+    <%= f.submit %>
+
+    
+<% end %>
+<br>
+<%= link_to "back to post", post_path(@post) %>
